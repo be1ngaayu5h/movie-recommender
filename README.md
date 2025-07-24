@@ -1,3 +1,4 @@
+
 # 🎬 Movie Recommender App
 
 A simple content-based movie recommendation system built using **Streamlit** and **machine learning**. Select a movie you like, and it will recommend similar movies based on genre, keywords, cast, and more!
@@ -25,15 +26,19 @@ A simple content-based movie recommendation system built using **Streamlit** and
 ## 📁 Folder Structure
 
 ```
+
 movie-recommender/
 │
 ├── app.py                # Streamlit web app
-├── model_building.ipynb  # jupyter notebbok
-├── movies.pkl            # Preprocessed movie data
-├── similarity.pkl        # Cosine similarity matrix
+├── model\_building.ipynb  # Jupyter notebook
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
-```
+
+````
+
+> 📂 **Note:**  
+> - The **dataset is not uploaded** due to file size limits. Please download it manually from the link below.  
+> - The **`movies.pkl`** and **`similarity.pkl`** files are also not uploaded. They will be generated automatically when you run all cells in `model_building.ipynb`.
 
 ---
 
@@ -45,7 +50,7 @@ movie-recommender/
 
 ```bash
 pip install -r requirements.txt
-```
+````
 
 3. Run the app:
 
@@ -57,10 +62,12 @@ streamlit run app.py
 
 ## 📊 Dataset
 
-- [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+* [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
 ---
 
 ## 👨‍💻 Author
 
 Made with ❤️ by Aayush Pardeshi
+
+```
